@@ -26,7 +26,7 @@ function LoginUI() {
                 </Toolbar>
             </AppBar>
             <Box sx={{ width: '70%', mx: 'auto', mt: '50px', boxShowdow: '2' }}>
-                <Avatar src={logo} sx={{ mx: 'auto', mt: '20px', width: '100px', height: '100px' }} />
+                <Avatar src={logo} sx={{ mx: 'auto', mt: '20px', width: '100px', height: '100px', mt:'60px'}} />
                 <Typography sx={{ textAlign: 'center', fontSize: '20px', fontWeight: 'bold' }}>
                     เข้าใช้งาน
                 </Typography>
@@ -47,11 +47,11 @@ function LoginUI() {
                 <Button variant='contained' fullWidth sx={{ my: '20px', backgroundColor: '#049156' }}>
                     Login
                 </Button>
-                <Stack variant={'rpw'} sx={{display: 'flex', justifyContent:'center'}}>
-                    <Typography sx={{fontSize:'16px'}}>
-                        ยังไม่มีบัญชี
+                <Stack direction={'row'} sx={{ display: 'flex', justifyContent: 'center' }}>
+                    <Typography sx={{ fontSize: '16px' }}>
+                        ยังไม่มีบัญชี?
                     </Typography>
-                    <Typography sx={{ fontSize: '16px',ml:1,color:'red' }}>
+                    <Typography sx={{ fontSize: '16px', ml: 1, color: 'red' }}>
                         ลงทะเบียน
                     </Typography>
                 </Stack>
